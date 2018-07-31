@@ -1,23 +1,26 @@
-page-home {
-    
-    .my-ion-card {
+page-login {
+
+    ion-content {
         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#204e72+0,a745f7+100 */
         background: #204e72; /* Old browsers */
         background: -moz-linear-gradient(-45deg, #204e72 0%, #a745f7 100%); /* FF3.6-15 */
         background: -webkit-linear-gradient(-45deg, #204e72 0%,#a745f7 100%); /* Chrome10-25,Safari5.1-6 */
         background: linear-gradient(135deg, #204e72 0%,#a745f7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        color: white;
-
-        p {
-            color: white;
-        }
-
-        h2 {
-            color: white;
-        }
     }
-    // .movie-card {
-    //     background: color($colors, secondary);
-    //     border: 1px solid color($colors, secondary);
-    // }
+
+    img {
+        width: 150px;
+    }
+
+    h3 {
+        color: white;
+    }
+
+    .mt-20 {
+        margin-top: 20%;
+    }
+
+    .mt-5 {
+        margin-top: 5%;
+    }
 }

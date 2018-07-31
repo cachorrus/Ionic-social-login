@@ -7,8 +7,20 @@
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-card>
+
+    <ion-item class="my-ion-card">
+      <ion-avatar item-start>
+        <img [src]="userInfo.photoURL">
+      </ion-avatar>
+      <h2>{{ userInfo.displayName }}</h2>
+      <p>{{ userInfo.email }}</p>
+      <p>{{ userInfo.phoneNumber }}</p>
+      <p>{{ userInfo.providerId }}</p>
+      <p>{{ userInfo.uid }}</p>
+    </ion-item>
+
+    <button ion-button block (click)="salir()">salir</button>
+  </ion-card>
+
 </ion-content>
